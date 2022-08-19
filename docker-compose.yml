@@ -1,0 +1,29 @@
+version: "3"
+
+services:
+  awesomesauce:
+    image: itzg/minecraft-server:java17
+    ports:
+      - 25565:25565
+    environment:
+      EULA: "true"
+      TYPE: "forge"
+      VERSION: "1.18.2"
+      FORGEVERSION: "40.1.69"
+      OPS: "awesomesauce"
+      ENABLE_QUERY: "false"
+      SNOOPER_ENABLED: "false"
+      ALLOW_FLIGHT: "true"
+      SERVER_NAME: "Awesomesauce Server 1.18.2 (based on Direwolf20 1.18 v1.9.1)"
+      BROADCAST_CONSOLE_TO_OPS: "true"
+      BROADCAST_RCON_TO_OPS: "true"
+      ENABLE_JMX: "false"
+      LOG_TIMESTAMP: "true"
+      ENABLE_AUTOPAUSE: "true"
+      MAX_TICK_TIME: "-1"
+    tty: true
+    stdin_open: true
+    restart: unless-stopped
+    volumes:
+      - .:/data
+      - ./mods:/mods

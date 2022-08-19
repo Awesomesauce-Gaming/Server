@@ -1,0 +1,129 @@
+{
+	"mod": "undergarden",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"water_creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"gwib": {
+						// Do not edit this name
+						"name": "gwib",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 5
+					}
+				}
+			},
+			"ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"scintling": {
+						// Do not edit this name
+						"name": "scintling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 15
+					}
+				}
+			},
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"mog": {
+						// Do not edit this name
+						"name": "mog",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"gloomper": {
+						// Do not edit this name
+						"name": "gloomper",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"brute": {
+						// Do not edit this name
+						"name": "brute",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"dweller": {
+						// Do not edit this name
+						"name": "dweller",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			},
+			"water_ambient": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"gwibling": {
+						// Do not edit this name
+						"name": "gwibling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 20
+					}
+				}
+			},
+			"monster": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"stoneborn": {
+						// Do not edit this name
+						"name": "stoneborn",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"muncher": {
+						// Do not edit this name
+						"name": "muncher",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rotwalker": {
+						// Do not edit this name
+						"name": "rotwalker",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rotling": {
+						// Do not edit this name
+						"name": "rotling",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"rotbeast": {
+						// Do not edit this name
+						"name": "rotbeast",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"sploogie": {
+						// Do not edit this name
+						"name": "sploogie",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"nargoyle": {
+						// Do not edit this name
+						"name": "nargoyle",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"masticator": {
+						// Do not edit this name
+						"name": "masticator",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					},
+					"forgotten_guardian": {
+						// Do not edit this name
+						"name": "forgotten_guardian",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 70
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,25 @@
+{
+	"mod": "create_stuff_additions",
+	"spawn": {
+		// Array of all categories this mod has spawns for
+		"categories": {
+			"creature": {
+				// Set the limit per mob within this category
+				"spawns": {
+					"tuned_brass_moped": {
+						// Do not edit this name
+						"name": "tuned_brass_moped",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					},
+					"brass_moped": {
+						// Do not edit this name
+						"name": "brass_moped",
+						// Maximum amount of this mob that can spawn per chunk
+						"limit": 10
+					}
+				}
+			}
+		}
+	}
+}
